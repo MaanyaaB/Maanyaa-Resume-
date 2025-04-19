@@ -1,145 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f4f1;
-        }
-        .container {
-            display: flex;
-            max-width: 900px;
-            margin: 20px auto;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-        .left {
-            background-color: #6bb5b5;
-            color: #fff;
-            padding: 20px;
-            width: 35%;
-            text-align: center;
-        }
-        .left img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        .left h1 {
-            font-size: 1.8em;
-            margin: 10px 0;
-        }
-        .left p {
-            font-size: 0.9em;
-            margin: 10px 0;
-        }
-        .left .contact {
-            margin-top: 20px;
-        }
-        .left .contact p {
-            margin: 5px 0;
-            font-size: 0.9em;
-        }
-        .right {
-            padding: 20px;
-            width: 65%;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h3 {
-            font-size: 1.2em;
-            color: #333;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #f4a261;
-            display: inline-block;
-        }
-        .section p, .section ul {
-            margin: 0;
-            color: #555;
-        }
-        .section ul {
-            list-style: none;
-            padding: 0;
-        }
-        .section ul li {
-            margin-bottom: 10px;
-        }
-        .skills, .hobbies {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .skills span, .hobbies span {
-            background: #f4a261;
-            color: #fff;
-            padding: 5px 10px;
-            border-radius: 20px;
-            font-size: 0.9em;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maanyaa Bajpai - Professional Resume</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div class="logo">
+        <i class="fas fa-user-circle"></i> MAANYAA BAJPAI
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#career-objective"><i class="fas fa-bullseye"></i> Objective</a></li>
+          <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+          <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+          <li><a href="#hobbies"><i class="fas fa-heart"></i> Hobbies</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <div class="container">
-        <div class="left">
-            <img src="https://avatars.githubusercontent.com/u/207447272?s=400&u=32baf2d052c6e73cf886ea4c0e52bc054ace67a0&v=4" alt="MAANYAA's Photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <hr>
-            <h1>MAANYAA BAJPAI</h1>
-            <p>Commerce & Business Management Student</p>
-            <div class="contact">
-                <p>Email: hello@maanyabajpai.com</p>
-                <p>Phone: +123-456-7890</p>
-                <a href="https://www.linkedin.com/in/maanyaa-bajpai-96a46232a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" style="color: #f9f4f1;">LinkedIn Profile</a>
-                <p>Address: 123 Anywhere St, Kanpur, Uttar Pradesh</p>
-                <hr>
-            </div>
+      <div class="left">
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4E03AQFKbxkd8jqOzg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726987941258?e=1750291200&v=beta&t=dGa-0pQbwSjVfCr9WYLZ_NZg4kUk4l8OsVWdU9YrVKQ"
+          alt="Maanyaa Bajpai's Profile Photo"
+        />
+        <h1>MAANYAA BAJPAI</h1>
+        <p>Commerce & Business Management Student</p>
+        <hr />
+        <div class="contact">
+          <p>
+            <i class="fas fa-envelope email-icon"></i>
+            hello@maanyabajpai.com
+          </p>
+          <p>
+            <i class="fas fa-phone phone-icon"></i>
+            +123-456-7890
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt location-icon"></i>
+            Kanpur, Uttar Pradesh
+          </p>
+          <a
+            href="https://www.linkedin.com/in/maanyaa-bajpai-96a46232a"
+            target="_blank"
+            aria-label="LinkedIn Profile"
+          >
+            <i class="fab fa-linkedin linkedin-icon"></i> LinkedIn Profile
+          </a>
         </div>
-        <div class="right">
-            <div class="section">
-                <h3>CAREER OBJECTIVE</h3>
-                <p>A highly motivated and articulate undergraduate student pursuing a dual degree in Commerce and Business Management, with a strong foundation in communication and leadership. Eager to build a career in management by leveraging analytical thinking, teamwork, and a passion for strategic problem-solving.</p>
-            </div>
-            <div class="section">
-                <h3>EDUCATION</h3>
-                <ul>
-                    <li><strong>BBA DBE (Online)</strong> – IIM Bangalore<br>Year of Joining: 2024 | Expected Graduation: 2027</li>
-                    <li><strong>BCom (Offline)</strong> – Jagran College of Arts, Science and Commerce</li>
-                    <li><strong>Class 12th</strong> – Swaraj India Public School<br>Year of Graduation: 2023 | 93.2%</li>
-                    <li><strong>Class 10th</strong> – Swaraj India Public School<br>Year of Graduation: 2021 | 90.66%</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h3>ACHIEVEMENTS</h3>
-                <ul>
-                    <li>3rd Place – Inter-School Hindi Debate Competition, 2022</li>
-                    <li>2nd Position in School Batch (2023)</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h3>SKILLS</h3>
-                <div class="skills">
-                    <span>Debating</span>
-                    <span>Communication</span>
-                    <span>Teamwork</span>
-                </div>
-            </div>
-            <div class="section">
-                <h3>HOBBIES & INTERESTS</h3>
-                <div class="hobbies">
-                    <span>Cooking</span>
-                    <span>Sketching</span>
-                    <span>Singing</span>
-                </div>
-            </div>
+      </div>
+      <div class="right">
+        <div class="card section" id="career-objective">
+          <h3><i class="fas fa-bullseye"></i> CAREER OBJECTIVE</h3>
+          <p>
+            A highly motivated and articulate undergraduate student pursuing a
+            dual degree in Commerce and Business Management, with a strong
+            foundation in communication and leadership. Eager to build a career
+            in management by leveraging analytical thinking, teamwork, and a
+            passion for strategic problem-solving.
+          </p>
         </div>
+
+        <div class="card section" id="education">
+          <h3><i class="fas fa-graduation-cap"></i> EDUCATION</h3>
+          <ul>
+            <li>
+              <strong>BBA DBE (Online)</strong> – IIM Bangalore<br />
+              <em>Year of Joining: 2024 | Expected Graduation: 2027</em>
+            </li>
+            <li>
+              <strong>BCom (Offline)</strong> – Jagran College of Arts, Science
+              and Commerce<br />
+              <em>Year of Joining: 2023 | Expected Graduation: 2026</em>
+            </li>
+            <li>
+              <strong>Class 12th</strong> – Swaraj India Public School<br />
+              <em>Year of Graduation: 2023 | Percentage: 93.2%</em>
+            </li>
+            <li>
+              <strong>Class 10th</strong> – Swaraj India Public School<br />
+              <em>Year of Graduation: 2021 | Percentage: 90.66%</em>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card section" id="achievements">
+          <h3><i class="fas fa-trophy"></i> ACHIEVEMENTS</h3>
+          <ul>
+            <li>
+              Secured <strong>3rd Place</strong> in Inter-School Hindi Debate
+              Competition (2022)
+            </li>
+            <li>
+              Achieved <strong>2nd Position</strong> in School Batch (2023)
+            </li>
+            <li>
+              Consistent academic performer with multiple subject excellence
+              awards
+            </li>
+          </ul>
+        </div>
+
+        <div class="card section" id="skills">
+          <h3><i class="fas fa-tools"></i> SKILLS</h3>
+          <div class="skills">
+            <span><i class="fas fa-comments"></i> Public Speaking</span>
+            <span><i class="fas fa-gavel"></i> Debating</span>
+            <span><i class="fas fa-lightbulb"></i> Strategic Thinking</span>
+            <span><i class="fas fa-users"></i> Team Leadership</span>
+            <span><i class="fas fa-comments"></i> Communication</span>
+            <span><i class="fas fa-cogs"></i> Problem Solving</span>
+            <span><i class="fas fa-clock"></i> Time Management</span>
+            <span><i class="fas fa-handshake"></i> Collaboration</span>
+          </div>
+        </div>
+
+        <div class="card section" id="hobbies">
+          <h3><i class="fas fa-heart"></i> HOBBIES & INTERESTS</h3>
+          <div class="hobbies">
+            <span><i class="fas fa-utensils"></i> Cooking</span>
+            <span><i class="fas fa-pencil-alt"></i> Sketching</span>
+            <span><i class="fas fa-music"></i> Singing</span>
+            <span><i class="fas fa-book"></i> Reading</span>
+            <span><i class="fas fa-plane"></i> Traveling</span>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
